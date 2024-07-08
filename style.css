@@ -1,0 +1,265 @@
+/* reset element */
+* {
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+}
+
+body {
+    margin: 0% 0% 0% 0%;
+    padding: 0;
+}
+
+main {
+    /* costumize with the header's height */
+    margin-top: 60px;
+}
+
+/* HEADER SECTION */
+/* navigation */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    height: 60px;
+    background-color: white;
+    /* add s-index after adding slider to see the difference*/
+    z-index: 100;
+    /* box-shadow: 0px 0px 50px gainsboro; */
+    border-bottom: 2px solid black;
+}
+
+.title {
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    padding: 0;
+    margin: 14px 30px 0px;
+    color: rgb(244, 162, 97);
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    margin: 14px 30px 0px;
+}
+
+a {
+    color: rgb(33, 45, 64);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    padding: 20px;
+    text-align: center;
+    background-image: url('./assets/jumbotron-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#jumbotron {
+    width: 100%;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+/* footer */
+footer {
+    background-color: rgb(38, 70, 83);
+}
+
+.center-footer {
+    margin: 0 20px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(244, 162, 97);
+}
+
+.info-top {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    color: rgb(224, 251, 252);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.fa-instagram-square, .fa-twitter-square, .fa-facebook-square, .fa-envelope {
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+/* aside */
+.fa-hand-point-up {
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.icon-down {
+    display: none;
+}
+
+.fa-hand-point-down {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(38, 70, 83);
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+.main-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px;
+}
+
+aside {
+    max-width: 25%;
+    max-height: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px gainsboro;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.aside-title {
+    margin-top: 50px;
+    font-size: 25px;
+    border-top: 5px solid rgb(38, 70, 83);
+    border-radius: 5px;
+}
+
+.profile-picture {
+    border-style: solid;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+/* content */
+.content {
+    margin-left: 5%;
+    margin-right: 10px;
+    /*max-width: 60%;*/
+    border: 2px solid red;
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.project {
+    margin: 10px 30px;
+    border-bottom: 10px solid #e76f51;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+.project-title {
+    color: #e76f51;
+    font-weight: bold;
+    
+}
+
+#my-project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul, li {
+    position: relative;
+}
+
+input {
+    width: 70%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(38, 70, 83);
+    height: 40px;
+    margin: 0;
+    padding: 5px;
+}
+
+.addBtn {
+    width: 30%;
+    padding: 6px;
+    background-color: rgb(38, 70, 83);
+    margin: 0;
+    cursor: pointer;
+    color: snow;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 10px;
+    }
+
+    .article-title {
+        justify-content: center;
+        display: flex;
+    }
+
+    .title-vidio{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .iframe {
+        display: flex;
+        justify-content: center;
+    }
+
+
+/* .jumbotron-title { */
+    /* font-size: 30px;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.jumbotron-text {
+    text-align: right;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(244, 162, 97);
+}
+
+.jumbotron-img {
+    display: flex;
+    justify-content: space-around;
+     */
+ */ */
